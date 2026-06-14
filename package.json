@@ -50,5 +50,9 @@
     "allowedDeprecatedVersions": {
       "eslint": "8"
     }
+  },
+  "devDependencies": {
+    "@react-native/codegen": "^0.86.0",
+    "@react-native/gradle-plugin": "^0.86.0"
   }
 }
