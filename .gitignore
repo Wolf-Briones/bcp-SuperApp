@@ -1,0 +1,20 @@
+.yarn/*
+
+node_modules
+
+/*.tgz
+
+build/
+
+.vscode/
+.idea/
+
+# Code Signing
+code-signing.pem
+code-signing.pem.pub
+
+# mprocs
+mprocs.log
+
+# Module Federation generated types
+@mf-types/
