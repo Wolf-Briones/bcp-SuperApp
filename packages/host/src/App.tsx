@@ -5,6 +5,8 @@ import MainNavigator from './navigation/MainNavigator';
 import SplashScreen from './components/SplashScreen';
 import ErrorBoundary from './components/ErrorBoundary';
 
+/* Host Shell (capa orquestadora) */
+
 const AuthProvider = React.lazy(() => import('auth/AuthProvider'));
 const SignInScreen = React.lazy(() => import('auth/SignInScreen'));
 
